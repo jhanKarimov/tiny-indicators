@@ -1,0 +1,15 @@
+[project]
+name = "tiny-indicators"
+version = "0.1.0"
+description = "A handful of technical indicators in plain pandas/numpy (SMA, EMA, RSI, ATR, Bollinger, MACD, Donchian, Supertrend, session VWAP)."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = ["pandas>=1.5", "numpy>=1.21"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["tiny_indicators"]
